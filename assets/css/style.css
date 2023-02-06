@@ -1,0 +1,33 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(216, 216, 216);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.myPicture {
+    width: 150px;
+    height: auto;
+}
+
+.calculator {
+    width: 150px;
+    height: auto;
+}
+
+/* mobile/global view */
+@media screen and (max-width: 768px){
+    
+}
+
+/* tablet view */
+@media screen and (min-width: 768px){
+
+}
+
+/* desktop view */
+@media screen and (min-width: 992px){
+    
+}
