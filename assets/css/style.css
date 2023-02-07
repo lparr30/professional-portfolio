@@ -1,20 +1,50 @@
+:root {
+    --orange: rgb(254, 133, 72);
+    --midnight: midnightblue;
+}
+
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(216, 216, 216);
+    /* background-color: rgb(216, 216, 216); */
 }
 
 html {
     scroll-behavior: smooth;
   }
 
+
 .myPicture {
     width: 150px;
     height: auto;
 }
 
+h1 {
+    background-color: var(--orange);
+    color: var(--midnight)
+}
+
+h2 {
+    color: var(--midnight);
+}
+
 .calculator {
     width: 150px;
     height: auto;
+}
+
+.proj1{
+    background-image: url(../images/beach.jpeg);
+    background-size: cover;
+}
+
+.proj2{
+    background-image: url(../images/sky.jpeg);
+    background-size: cover;
+}
+
+.proj3{
+    background-image: url(../images/starry-sky.webp);
+    background-size: cover;
 }
 
 /* mobile/global view */
