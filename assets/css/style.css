@@ -18,6 +18,12 @@ html {
     align-items: center;
 }
 
+.myWork {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
 .titles {
     display: flex;
     flex-direction: column;
@@ -50,29 +56,43 @@ h2 {
     color: var(--midnight);
 }
 
-.calculator {
-    width: 150px;
-    height: auto;
+.proj {
+    width: 15%;
+    margin: 0 10px 0 10px;
 }
 
-.proj1{
+#proj1{
     background-image: url(../images/beach.jpeg);
     background-size: cover;
+    height: 300px;
+    /* flex: 3; */
 }
 
-.proj2{
+#proj2{
     background-image: url(../images/sky.jpeg);
     background-size: cover;
 }
 
-.proj3{
+#proj3{
     background-image: url(../images/starry-sky.webp);
     background-size: cover;
 }
 
+
 /* mobile/global view */
 @media screen and (max-width: 768px){
-    
+    .myWork {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+
+
+    .proj {
+        width: 100%;
+        margin: 10px;
+        color: var(--background);
+    }
 }
 
 /* tablet view */
