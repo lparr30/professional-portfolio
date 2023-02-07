@@ -9,30 +9,34 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Liza J Parr's Portfolio</h1>
+    <!-- flexbox starts -->
+    <header class="header">
+        <h1>Liza J Parr</h1>
+        <h2>Fullstack Engineer</h2>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">My Work</a>
-            <a href="#contact">Contact Me</a>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
+    <!-- flexbox ends -->
     
-</body>
-  <!-- insert image here -->
+      <!-- insert image here -->
   <section>
     <img class="myPicture" src="./assets/images/portfolio-picture.jpg">
   </section>
 
  <!-- About Me section -->
-<section>
+<section class="titles">
     <h2 id="about">About Me</h2>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facilis omnis quod maiores, culpa dolorum asperiores. Dicta nesciunt optio cum est atque error exercitationem id voluptates vero, voluptatem accusantium possimus?</p>
  </section>
 
 <!-- My work section, including images  -->
+<h2 id="work">My Work</h2>
 <section>
-    <h2 id="work">My Work</h2>
     <!-- #1 (biggest section) -->
     <article class="proj1">
         <h4>Biggest Project</h4>
@@ -58,6 +62,8 @@
     <a href="www.linkedin.com/in/lizajparr">LinkedIn</a> 
     <a href="https://github.com/lparr30?tab=repositories">Github</a>  
 </section> 
+</body>
+
 <footer>
     <h5>Thank you for visiting!</h5>
 </footer>
