@@ -79,6 +79,11 @@ h2 {
     background-size: cover;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* mobile/global view */
 @media screen and (max-width: 768px){
