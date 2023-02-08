@@ -10,7 +10,7 @@ This project will culminate all of my future works into one place, displaying th
 
 Click the links in the navigation bar to view each section. Under "My Work" you will see further sections broken down into each project I've completed. To view any project, simply select the image. Your browser will open a new webpage, loading the respective project.
 
-Click this [link](https://www.markdownguide.org/cheat-sheet/) to visit the site.
+Click this [link](https://lparr30.github.io/professional-portfolio/) to visit the site.
 
 ![Navigation Links](assets/images/nav-links.png)
 ![App Links](assets/images/my-work.png)
